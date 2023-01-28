@@ -17,6 +17,6 @@ func main() {
 
 	list.Get("/", func(c *fiber.Ctx) error {
 		return c.SendString("Welcome to the Todo-List-API Tutorial :)")
-	}) // "/" - Default route to return the given string.
+	})
 
 }
